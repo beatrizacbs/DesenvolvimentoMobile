@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Exercicio03</string>
+    <string name="nome">Nome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="curso">Curso</string>
+    <string name="selecione_curso">Selecione o Curso</string>
+    <string name="questao">Questão</string>
+    <string name="estudante">Estudante</string>
+    <string name="enviar">Enviar</string>
+    <string name="bcc">BCC - Bacharelado em Ciência da Computação</string>
+    <string name="bsi">BSI - Bacharelado em Sistema de Informação</string>
+    <string name="lc">LC - Licenciatura em Computação</string>
+    <string name="selecionar">Selecionar</string>
+</resources>

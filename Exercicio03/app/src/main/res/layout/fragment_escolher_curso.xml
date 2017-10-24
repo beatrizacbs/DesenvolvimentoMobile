@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.beatriz.exercicio03.EscolherCursoFragment">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button_bcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bcc"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_bsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bsi"/>
+        
+        <RadioButton
+            android:id="@+id/radio_button_lc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lc"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/selecionar_button"
+        android:text="@string/selecionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
